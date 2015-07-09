@@ -7,28 +7,69 @@ html, body {
 .boxes {
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	vertical-align: middle;
-	line-height: 100px;
+	line-height: 60px;
+	display: flex;
+	justify-content: space-between;
+	min-width: 700px;
 }
 
-.box {
-	display: inline-block;
-	width: 20%;
-	height: 100px;
+
+div {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+	line-height: 60px;
+}
+
+
+div p {
+	font: 20px/1.5 helvetica;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: helvetica;
+	text-align: right;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	font-family: helvetica;
+	font-size: .7em;
 	text-align: center;
-	line-height: 100px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	vertical-align: middle;
 }
 
-/*.leftbox {
-	float: right;
-	font: 20px/2 sans-serif;
-}*/
-
-.boxes p {
-	font: 20px/1.5 sans-serif;
+hr {width: 70%;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	vertical-align: middle;
 }
 
-.boxes h3 {
-	font: 25px/1.5 sans-serif;
-	text-align: left;
+li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;
 }
